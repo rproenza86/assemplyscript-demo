@@ -1,0 +1,23 @@
+{
+  "name": "@rproenza/assemplyscript-demo",
+  "version": "1.0.0-alpha.1",
+  "description": "Demo to showcase how to use Webassembly with native support for AssemblyScript.",
+  "main": "index.js",
+    "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node tests/index.js",
+    "asbuild:untouched": "asc assembly/index.ts -b build/untouched.wasm -t build/untouched.wat --sourceMap --debug",
+    "asbuild:optimized": "asc assembly/index.ts -b build/optimized.wasm -t build/optimized.wat --sourceMap --optimize",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@assemblyscript/loader": "0.0.0"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.12.5"
+  }
+}

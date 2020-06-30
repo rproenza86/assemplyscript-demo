@@ -1,0 +1,6 @@
+build/*.wasm.map
+build/*.asm.js
+
+node_modules
+assembly
+tests
