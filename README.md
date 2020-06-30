@@ -18,6 +18,10 @@ Launches the test runner and assert the application logic proper execution.
 
 ### User experience
 
+#### `npm i @rproenza/assemplyscript-demo`
+
+Install package.
+
 ```typescript
 import * as WasTest from '@rproenza/assemplyscript-demo';
 
@@ -33,3 +37,5 @@ const expressPostEndpointHandler = (request, reply) => {
     }
 };
 ```
+
+Import and use the package on your code.

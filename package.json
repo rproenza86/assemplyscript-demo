@@ -1,9 +1,9 @@
 {
   "name": "@rproenza/assemplyscript-demo",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.2",
   "description": "Demo to showcase how to use Webassembly with native support for AssemblyScript.",
   "main": "index.js",
-    "publishConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "scripts": {
